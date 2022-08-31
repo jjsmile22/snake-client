@@ -13,7 +13,7 @@ const connect = function () {
 };
 
 
-
+// refactored with Konstantin
 console.log("Connecting....");
 const conn = connect();
 conn.on('data', (data) => {
